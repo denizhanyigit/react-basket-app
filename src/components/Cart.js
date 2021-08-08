@@ -25,9 +25,7 @@ const Cart = (props) => {
                         <p>Yazar: {book.author}</p>
                         <p>Fiyat: &#8378;{book.price}</p>
                         <p>Sepetinizde bu kitaptan toplam 1 adet var.</p>
-                        <button>-</button>
                         <button onClick={() => props.removeToCart(book.id)}>Sepetten Çıkar</button>
-                        <button>+</button>
                     </div>
                 </div>
 
